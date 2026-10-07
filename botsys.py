@@ -1,6 +1,6 @@
 """
 botsys.py — TG INFO Telegram Bot Frontend
-Developer : @mainexodus
+Developer : @Exodus_OWN3R
 
 • Colorful inline keyboard menus
 • Force-join system
@@ -18,9 +18,9 @@ import requests
 #  CONFIG
 # ══════════════════════════════════════════════════════
 DB_PATH          = os.environ.get("BOT_DB", "tginfo_bot.db")
-DEV_TAG          = "Exodus OWN3R" "MAIN EXODUS"
-DEV_URL          = "https://t.me/Exodus_OWN3R" "https://t.me/mainexodus"
-CONTACT_USERNAME = os.environ.get("CONTACT_USERNAME", "Exodus OWN3R").lstrip("@")
+DEV_TAG          = "Exodus OWN3R" 
+DEV_URL          = "https://t.me/Exodus_OWN3R" 
+CONTACT_USERNAME = os.environ.get("CONTACT_USERNAME", "https://t.me/Exodus_OWN3R").lstrip("@")
 CONTACT_URL      = f"https://t.me/{CONTACT_USERNAME}"
 DEFAULT_DAILY    = int(os.environ.get("API_DAILY_LIMIT", "300"))
 
